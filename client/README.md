@@ -2,7 +2,7 @@
 
 An assignment from tartan. allows a visitor to select upto 3 interest areas and register for their learning.
 
- [Live Demo](http://localhost:3000)
+ [Live Demo](https://serene-cray-a3cd42.netlify.app/)
 
 ## Usage
 
@@ -36,15 +36,15 @@ npm start
 - Users can fill their name and email for registration.
 - Users can search their learning areas in the search box. search results is shown in the dropdown below search box
 - When a user clicks outside the search box the search result closes
-- A click on submit button will successfully gets submitted only when three text fields are filled.
+- A click on submit button gets submitted only when three text fields are filled.
 - User can only select three learning areas and when he/she click on the fourth interest area an warning message is shown
-- Once there is a successful submission you will get a success message and then you can register for a new learning areas. Also there text fields returns to initial stage once there is a successful submission
+- Once there is a successful submission you will get a success message and then you can register for a new learning areas. Also text fields returns to initial stage once there is a successful submission
 
 
 
 ### Credits
 
-I don't own the content such icons on this web app, this was purely developed with an intent of learning and fun.
+I don't own the content such as icons on this web app, this was purely developed with an intent of learning and fun.
 
 - Icons - Google Material Fonts
 - References - [MDN](https://developer.mozilla.org/en-US/) | [w3schools](https://www.w3schools.com/)
