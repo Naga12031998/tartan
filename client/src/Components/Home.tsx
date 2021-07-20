@@ -37,11 +37,13 @@ const Home = (): ReactElement => {
 	};
 
 	// debouncing the API call
-	const debouceApiCall = (() => {
-		let debouncing: any;
-		return (delay: number) => {
+	const debounceApiCall = (() => {
+		let debouncing: any = 0;
+		return (fn: Function, delay: number): void => {
 			debouncing && clearTimeout(debouncing);
-			debouncing = setTimeout(() => handleSearch(), delay);
+			debouncing = setTimeout(() => {
+				fn();
+			}, delay);
 		};
 	})();
 
@@ -130,7 +132,7 @@ const Home = (): ReactElement => {
 				setModalText={setModalText}
 				handleChange={(event: ChangeEvent<HTMLInputElement>) => {
 					setInterests(event.target.value);
-					debouceApiCall(1000);
+					debounceApiCall(handleSearch, 1000);
 				}}
 			/>
 
