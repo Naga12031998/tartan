@@ -1,38 +1,109 @@
+.listItems:hover {
+	background: #ffeb00;
+}
+
+.containerStyle {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+}
+
 .App {
-  text-align: center;
+	background: linear-gradient(110deg, white 70%, #ffeb00 30%);
+	height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formTopSpace {
+	margin-top: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.spaceBetweenFormElements {
+	margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.buttonBackgroundStyle {
+	background-color: #ffeb00;
+	cursor: pointer;
+	width: max-content;
+	border-radius: 5px;
+	text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.buttonTextStyle {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textFieldStyle {
+	background-color: transparent;
+	width: 100%;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	min-width: 100px;
+	max-width: 300px;
+}
+
+.modalHeaderStyle {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.dropDownContainerStyle {
+	position: relative;
+}
+
+.dropDownStyle {
+	position: absolute;
+	width: 340px;
+	height: 150px;
+	overflow: auto;
+	border: 1px solid #ddd;
+	z-index: 1;
+	background-color: whitesmoke;
+}
+
+.dropDownTextStyle {
+	cursor: pointer;
+	padding-left: 15px;
+}
+
+.listItems {
+	display: flex;
+	flex-direction: column;
+}
+
+.interestsContainer {
+	display: flex;
+	flex-direction: row;
+}
+
+.interestTextStyle {
+	display: flex;
+	flex-direction: row;
+	margin-right: 20px;
+	background-color: #f2f4f7;
+	border-radius: 4px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.interestTextSpacing {
+	margin: 2px;
+}
+
+.labelStyle {
+	color: red;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.cursorStyle {
+	cursor: pointer;
 }
