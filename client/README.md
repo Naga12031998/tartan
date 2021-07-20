@@ -72,7 +72,8 @@ I don't own the content such icons on this web app, this was purely developed wi
 
 
 
-![tartan_1](/home/naga/tartan_1.jpg)
+![tartan_1](https://user-images.githubusercontent.com/51481112/126263173-42a9a6a8-d9ed-4c39-a222-33326dc219fd.jpg)
+
 
 ### Contributors
 
